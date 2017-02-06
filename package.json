@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server & webpack -d --watch ",
+    "dev": "webpack-dev-server --port 3200 & webpack -d --watch ",
     "build" : "webpack -p"
   },
   "author": "",
